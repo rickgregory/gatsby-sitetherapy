@@ -19,6 +19,7 @@ class Layout extends React.Component {
             ...scale(1.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
+            color: '#f00'
           }}
         >
           <Link
@@ -36,8 +37,8 @@ class Layout extends React.Component {
     } else {
       header = (
         <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
+          style={{ 
+            fontFamily:  ` -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`,
             marginTop: 0,
           }}
         >
@@ -52,11 +53,14 @@ class Layout extends React.Component {
             {title}
           </Link>
         </h3>
+  
+      
       )
     }
     return (
       <div
         style={{
+          fontFamily:  ` -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`,
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(24),
